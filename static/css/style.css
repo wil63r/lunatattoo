@@ -226,7 +226,7 @@ input[type="submit"] { -webkit-appearance: none; outline: none; }
 
 input,
 textarea,
-select { border: 1px solid #d1d1d1; font-size: 14px; padding: 8px 15px; width: 100%; margin: 0; max-width: 100%; resize: none; }
+select { border: 1px solid #d1d1d1; font-size: 14px; padding: 8px 15px; width: 100%; margin: 0 0 25px; max-width: 100%; resize: none; }
 
 input[type="checkbox"],
 input[type="radio"] {
