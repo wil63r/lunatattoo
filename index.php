@@ -1,3 +1,4 @@
+<?php include "App/app.php"; ?>
 <!doctype html>
 <html lang="es">
 
@@ -9,24 +10,17 @@
 	<meta name="keywords" content="tattoo, cuba, tatuajes, tatuadores, estudio, Habana, Bodeguita del medio">
 	<meta name="google-site-verification" content="U5PIk3QJzDAVR76V2Ybk4l_aEUGogSOKSg-64U9Gfwk" />
 	<title>Luna Tattoo - Estudio de Tatuajes en La Habana, Cuba</title>
-	<!-- Favicon -->
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
-	<!-- Plugin CSS -->
 	<link href="static/plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="static/plugin/et-line/style.css" rel="stylesheet">
 	<link href="static/plugin/owl-carousel/css/owl.carousel.min.css" rel="stylesheet">
 	<link href="static/plugin/magnific/magnific-popup.css" rel="stylesheet">
-	<!-- End -->
-	
 
-	<!-- Theme css -->
 	<link href="static/css/header.css" rel="stylesheet">
 	<link href="static/css/style.css" rel="stylesheet">
 	<link href="static/css/color/default.css" rel="stylesheet" id="color_theme">
-	<!-- End -->
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107502397-2"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
@@ -37,30 +31,22 @@
 
 </head>
 
-<!-- ========== Body Starts ========== -->
 <body data-spy="scroll" data-target=".navbar" data-offset="73">
 
-	<!-- ========== Header Start ========== -->
 	<header class="header header-black header-height">
 		<div class="fixed-header-bar">
-			<!-- Container Start -->
 			<div class="container">
 				<nav class="navbar navbar-expand-lg menu-hover-text">
-					<!-- navbar-brand -->
 					<a class="navbar-brand" href="index.html">
 						<img src="static/img/logo-white.png" title="" alt="">
 					</a>
-					<!-- / -->
 
-					<!-- Mobile Toggle -->
 					<button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#header-01" aria-controls="header-01" aria-expanded="false" aria-label="Toggle navigation">
 						<span></span>
 						<span></span>
 						<span></span>
 					</button>
-					<!-- /-->
 					<div id="header-01" class="collapse navbar-collapse top-menu">
-						<!-- Menu Start -->
 						<ul class="navbar-nav ml-auto">
 							<li class="nav-item">
 								<a class="nav-link" href="#home">Inicio</a>
@@ -78,26 +64,25 @@
 								<a class="nav-link" href="#portfolio">Galería</a>
 							</li>
 							<!-- <li class="nav-item">
-								<a class="nav-link" href="#blog">Eventos</a>
+								<a class="nav-link" href="#post">Publicaciones</a>
 							</li> -->
 							<li class="nav-item">
 								<a class="nav-link" href="#contact">Contacto</a>
 							</li>
 						</ul>
-						<!-- / -->
+						<!-- <?php partial('langSelectorTemplate') ?> -->
+						<span class="lang-section">
+							<a href="#"><img src="static/img/es.png" title="Idioma Español" alt="Bandera Idioma Español"></a>
+						</span>
 					</div>
-				</nav><!-- / -->
+				</nav>
 			</div>
-			<!-- / -->
-		</div> <!-- .fixed-header-bar -->
+			
+		</div>
 	</header>
-	<!-- ========== Header End ========== -->
 
-	<!-- ========== Main Start ========== -->  
 	<main>
 
-		<!-- ========== Home Banner Start ========== -->  
-		<!-- Home -->
 		<section id="home" class="home-banner bg-cover bg-no-repeat bg-center-left bg-fixed" style="background-image: url(static/img/banner-6.jpg);">
 			<div class="container">
 				<div class="row justify-content-end align-items-center min-h-100vh text-left">
@@ -105,52 +90,37 @@
 						<div class="color-theme font-30 text-uppercase font-w-700 m-20px-b">Estudio de Tatuajes en Cuba</div>
 						<div class="font-alt font-75 md-font-45 sm-font-35 color-white font-w-900 text-uppercase letter-spacing-3 m-30px-b">Luna Tattoo</div>
 						<span class="w-80px h-2px theme-bg display-table"></span>
-					</div> <!-- col -->
+					</div>
 				</div>
-			</div> <!-- Cotainer -->
+			</div>
 		</section>
-		<!-- Home End -->
-		<!-- ========== Home Banner End ========== -->  
 
-		<!-- About Us -->
 		<section id="about" class="section black-bg">
 			<div class="container">
-				<div class="row justify-content-center m-30px-b sm-m-10px-b">
-					<div class="col-12 col-md-10 col-lg-8 text-center">
-
-					</div> <!-- col -->
-				</div> <!-- row -->
-
 				<div class="row justify-content-center align-items-center">
 					<div class="col-12 col-md-7 got-to">
-						<h2 class="color-white font-25 font-w-800 m-0px m-15px-b">Sobre nosotros</h2>
+						<h2 class="color-white font-w-700 m-0px m-15px-b">Sobre <span class="color-theme">Nosotros</span></h2>
 						<span class="w-80px h-2px theme-bg display-table"></span>
 						<p class="font-16 m-25px-t m-30px-b">Caminando por la calle Empedrado, a escasos metros de la emblemática Bodeguita del Medio en el corazón de La Habana Vieja en Cuba, solo basta con que eches un vistazo dentro de una puerta y veas las escaleras pintada con colores brillantes que conduce a nuestro salón de tatuajes.</p>
 						<p class="font-16 m-25px-t m-30px-b">Con más de tres años de experiencia, en <strong>Luna Tattoo</strong>, estamos determinados a buscar y crear ese diseño que se desea, aún sin conocer cual es. No tenemos límite en cuanto a diseño, ya sean retratos, tribales, asiáticos, biomecánicos, a color o en gris y negro.</p>
 						<p class="font-16 m-25px-t m-30px-b">Tatuar es una pasión para nosotros. En cada tatuaje que realizamos, sin importar el diseño o el tamaño, ponemos todo nuestro empeño con el objetivo de que el cliente se sienta orgulloso de él.</p>
 						<a href="#contact" class="m-btn m-btn-t-white">Cómo llegar</a><a href="#team" class="m-btn m-btn-t-white">Quienés Somos</a>
-					</div> <!-- col -->
+					</div>
 					<div class="col-12 col-md-5">
 						<img src="static/img/escalera-entrada.jpg" title="escaleras a LunaTattoo" alt="escaleras a LunaTattoo" />
-					</div><!-- col -->
-				</div> <!-- row -->
-
-			</div> <!-- container -->
+					</div>
+				</div>
+			</div>
 		</section>
-		<!-- About Us End-->
 
-		<!-- Service Start -->
 		<section id="services" class="section light-gray-bg">
 			<div class="container">
-
 				<div class="row justify-content-center m-55px-b  md-m-35px-b sm-m-25px-b">
 					<div class="col-12 col-md-10 col-lg-8 text-center">
-						<h4 class="color-extra-dark-gray font-w-700 m-0px m-15px-b">Servicios <span class="color-theme">que ofrecemos</span></h4>
-						
+						<h2 class="color-extra-dark-gray font-w-700 m-0px m-15px-b">Servicios <span class="color-theme">que ofrecemos</span></h2>
 						<p class="font-17 m-0px m-20px-t sm-font-14 color-extra-dark-gray">Un tatuaje es una obra de arte permanente personalizada y hecha a mano.</p>
-					</div> <!-- col -->
+					</div>
 				</div>
-
 				<div class="row">
 					<div class="col-12 col-md-6 col-lg-4">
 						<div class="feature-box p-30px white-bg m-15px-tb box-shadow hover-shadow">
@@ -158,43 +128,38 @@
 							<div class="feature-content">
 								<div class="font-alt font-16 font-w-600 letter-spacing-1 m-15px-b m-25px-t color-extra-dark-gray">Diseños únicos</div>
 								<p>Contamos con un extenso catálogo de diseños e igualmente si no encuentra lo que desea en este, diseñamos uno acorde a las caracter´siticas que quiere que este posea.</p>
-							</div><!-- feature-content -->
+							</div>
 						</div>
-					</div> <!-- col -->
+					</div>
 					<div class="col-12 col-md-6 col-lg-4">
 						<div class="feature-box p-30px white-bg m-15px-tb box-shadow hover-shadow">
 							<i class="icon-hand color-theme icon-xxl"></i>
 							<div class="feature-content">
 								<div class="font-alt font-16 font-w-600 letter-spacing-1 m-15px-b m-25px-t color-extra-dark-gray">Tapados</div>
 								<p>Aquellas marcas o viejos tatuajes que cree que afean su cuerpo no son un problema para nosotros. Nuestra experiencia nos permite realizar un trabajo sobre estas marcas o tatuajes que luego sentirá orgullo de llevar y mostrar</p>
-							</div><!-- feature-content -->
+							</div>
 						</div>
-					</div> <!-- col -->
+					</div>
 					<div class="col-12 col-md-6 col-lg-4">
 						<div class="feature-box p-30px white-bg m-15px-tb box-shadow hover-shadow">
 							<i class="icon-shoulder color-theme icon-xxl"></i>
 							<div class="feature-content">
 								<div class="font-alt font-16 font-w-600 letter-spacing-1 m-15px-b m-25px-t color-extra-dark-gray">Retoques</div>
 								<p>Si su tatuaje ha perdido los colores y ya no es el mismo que cuando se lo hizo, contamos con tintas de la mejor calidad que al ser retocado volverá a lucir como nunca antes.</p>
-							</div><!-- feature-content -->
+							</div>
 						</div>
-					</div> <!-- col -->
-				</div> <!-- row -->
-			</div> <!-- container -->
+					</div>
+				</div>
+			</div>
 		</section>
-		<!-- services End -->
 
-		<!-- Our Team -->
 		<section class="section black-bg" id="team">
 			<div class="container">
 				<div class="row justify-content-center m-65px-b md-m-40px-b sm-m-30px-b">
 					<div class="col-12 col-md-10 col-lg-8 text-center">
-						<h4 class="color-white font-w-700 m-0px m-15px-b">Quienes <span class="color-theme">Somos</span></h4>
-						
-						<!-- <p class="font-16 m-25px-t m-30px-b">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
-					</div> <!-- col -->
+						<h2 class="color-white font-w-700 m-0px m-15px-b">Quienes <span class="color-theme">Somos</span></h2>
+					</div>
 				</div>
-
 				<div class="row justify-content-center">
 					<div class="col-12 col-sm-6 col-md-6 col-lg-4 md-m-15px-tb">
 						<div class="our-team-02 white-bg box-shadow hover-shadow">
@@ -215,9 +180,8 @@
 								<div class="color-extra-dark-gray font-w-700 text-uppercase">Yunior Lorente Luna</div>
 								<span class="font-14">Diseñador / Tatuador</span>
 							</div>
-						</div> <!-- Our Team -->
-					</div> <!-- Col -->
-
+						</div>
+					</div>
 					<div class="col-12 col-sm-6 col-md-6 col-lg-4 md-m-15px-tb">
 						<div class="our-team-02 white-bg box-shadow hover-shadow">
 							<div class="team-img p-10px">
@@ -237,15 +201,13 @@
 								<div class="color-extra-dark-gray font-w-700 text-uppercase">Bailey Ramirez Madrigal</div>
 								<span class="font-14">Diseñador / Tatuador</span>
 							</div>
-						</div> <!-- Our Team -->
-					</div> <!-- Col -->
+						</div>
+					</div>
 
-				</div> <!-- row -->
-			</div> <!-- container -->
+				</div>
+			</div>
 		</section>
-		<!-- / -->
 
-		<!-- Portfolio -->
 		<section id="portfolio" class="section dark-bg">
 			<div class="container-fluid">
 				<div class="row justify-content-center m-60px-b sm-m-10px-b">
@@ -258,41 +220,34 @@
 				<div class="portfolio-content">
 					<ul class="portfolio-cols portfolio-cols-3" id="instafeed">
 						
-					</ul> <!-- row -->
-				</div> <!-- portfolio content -->
-			</div> <!-- container -->
+					</ul>
+				</div>
+			</div>
 		</section>
-		<!-- / -->
-
-		<!-- Contact -->
+		
 		<div id="contact"></div>
 		<div id="map"></div>
 		<section class="section dark-bg">
 			<div class="container"> 
-
 				<div class="row justify-content-center">
 					<div class="col-12 col-md-6 col-lg-4 md-m-30px-b">
 						<div class="m-50px-b">
 							<h5 class="font-w-600 color-white font-alt m-0px p-10px-b">Nuestros Datos</h5>
 							<span class="display-block theme-bg w-50px h-2px"></span>
 						</div>
-
 						<div class="m-15px-b">
 							<div class="font-alt font-18 font-w-500 m-5px-b m-15px-t color-white">Dirección</div>
 							<p class="font-16 m-0px">Empedrado #217 Apto. 8<br>e/ Cuba y San Ignacio<br>La Habana, Cuba</p>
 						</div>
-
 						<div class="m-15px-b">
 							<div class="font-alt font-18 font-w-500 m-5px-b m-15px-t color-white">Teléfonos</div>
 							<p class="font-16 m-0px">+53 5 511 0363</p>
 							<p class="font-16 m-0px">+53 5 511 2704</p>
 						</div>
-
 						<div class="m-15px-b">
 							<div class="font-alt font-18 font-w-500 m-5px-b m-15px-t color-white">E-mail</div>
 							<p class="font-16 m-0px">studiomoontattoo@gmail.com</p>
 						</div>
-
 						<div class="m-15px-b">
 							<div class="font-alt font-18 font-w-500 m-5px-b m-15px-t color-white">Síguenos</div>
 							<ul class="social-icons social-icons-small m-40px-b sm-m-20px-b">
@@ -300,80 +255,55 @@
 								<li><a class="instagram" href="http://instagram.com/studiomoontattoo" target="_blank"><i class="icon-instagram"></i></a></li>
 							</ul>
 						</div>
-					</div> <!-- col -->
-
+					</div>
 					<div class="col-12 col-md-6 col-lg-8">
 						<div class="m-50px-b">
 							<h5 class="font-w-600 color-white font-alt m-0px p-10px-b">Mantente en Contacto</h5>
 							<span class="display-block theme-bg w-50px h-2px"></span>
 						</div>
-
 						<form method="POST" action="https://formspree.io/studiomoontattoo@gmail.com">
 							<input name="name" placeholder="Nombre *" class="border-form input-medium" type="text">
-
 							<input name="name" placeholder="E-mail *" class="border-form input-medium" type="email">
-
 							<textarea name="name" placeholder="Tu mensaje *" rows="6" class="border-form textarea-medium"></textarea>
-
 							<input type="hidden" name="_next" value="http://tattoosincuba.com/thanks.html" />
-							
 							<button type="submit" class="m-btn m-btn-t-white text-uppercase">Enviar <i class="icon-paper-plane"></i></button>
-							
-						</form> <!-- row -->
-
-					</div> <!-- col -->
-				</div> <!-- row -->
-			</div> <!-- container -->
+						</form>
+					</div>
+				</div>
+			</div>
 		</section>
-		<!-- / -->
 
 	</main>
-	<!-- ========== Main End ========== -->  
 
-	<!-- ========== Footer Start ========== -->
 	<footer>
 		<div class="black-bg section">
 			<div class="container">
 				<div class="row">
 					<div class="col-12 text-center">
-
 						<p class="m-0px color-medium-gray letter-spacing-1 font-14">© Copyright Luna Tattoo.</p>
-					</div><!-- col -->
-				</div> <!-- row -->
-			</div> <!-- container -->
-		</div> <!-- bg-dark -->
+					</div>
+				</div>
+			</div>
+		</div>
 	</footer>
-	<!-- ========== Footer End ========== --> 
 
-	<!-- Jquery -->
 	<script src="static/js/jquery-3.2.1.min.js"></script>
 	<script src="static/js/jquery-migrate-3.0.0.min.js"></script>
-	<!-- End -->
-
-	<!-- Plugin JS -->
-	<script src="static/plugin/appear/jquery.appear.js"></script><!--appear-->
-	<script src="static/plugin/bootstrap/js/popper.min.js"></script><!--popper-->
-	<script src="static/plugin/bootstrap/js/bootstrap.js"></script><!--bootstrap-->
-	<script src="static/plugin/instafeed.js"></script><!--instafeed-->
-	<!-- End -->
+	<script src="static/plugin/appear/jquery.appear.js"></script>
+	<script src="static/plugin/bootstrap/js/popper.min.js"></script>
+	<script src="static/plugin/bootstrap/js/bootstrap.js"></script>
+	<script src="static/plugin/instafeed.js"></script>
 	<script>
-			function initMap() {
-				var uluru = {lat: 23.140724, lng: -82.352644};
-				var map = new google.maps.Map(document.getElementById('map'), {
-					zoom: 20,
-					center: uluru
-				});
-			}
-		</script>
-		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgv8hh6IslVorrAu3vIEnsaVXfMwShmkU&callback=initMap">
-			
-		</script>
-
-	<!-- Custom -->
+		function initMap() {
+			var uluru = {lat: 23.140724, lng: -82.352644};
+			var map = new google.maps.Map(document.getElementById('map'), {
+				zoom: 20,
+				center: uluru
+			});
+		}
+	</script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgv8hh6IslVorrAu3vIEnsaVXfMwShmkU&callback=initMap"></script>
 	<script src="static/js/custom.js"></script>
-	<!-- End -->
 
 </body>
-<!-- ========== End of Body ========== -->
-
 </html>
