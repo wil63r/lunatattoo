@@ -6,10 +6,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no user-scalable=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="description" content="Estudio MoonTattoo Cuba. Tatuajes hechos en La Habana, Cuba en el esudio Luna Tattoo">
-	<meta name="keywords" content="tattoo, cuba, tatuajes, tatuadores, estudio, Habana, Bodeguita del medio">
+	<meta name="description" content="<?=trans('home.meta.description')?>">
+	<meta name="keywords" content="<?=trans('home.meta.keyword')?>">
 	<meta name="google-site-verification" content="U5PIk3QJzDAVR76V2Ybk4l_aEUGogSOKSg-64U9Gfwk" />
-	<title>Luna Tattoo - Estudio de Tatuajes en La Habana, Cuba</title>
+	<title><?=trans('home.title')?></title>
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
 	<link href="static/plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,6 +20,7 @@
 	<link href="static/css/header.css" rel="stylesheet">
 	<link href="static/css/style.css" rel="stylesheet">
 	<link href="static/css/color/default.css" rel="stylesheet" id="color_theme">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Merienda+One|Roboto:400,700" rel="stylesheet"> -->
 
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107502397-2"></script>
 	<script>
@@ -49,31 +50,28 @@
 					<div id="header-01" class="collapse navbar-collapse top-menu">
 						<ul class="navbar-nav ml-auto">
 							<li class="nav-item">
-								<a class="nav-link" href="#home">Inicio</a>
+								<a class="nav-link" href="#home"><?=trans('home.navigation.home')?></a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#about">Sobre Nosotros</a>
+								<a class="nav-link" href="#about"><?=trans('home.navigation.about')?></a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#services">Servicios</a>
+								<a class="nav-link" href="#services"><?=trans('home.navigation.services')?></a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#team">Quienes Somos</a>
+								<a class="nav-link" href="#team"><?=trans('home.navigation.team')?></a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#portfolio">Galería</a>
+								<a class="nav-link" href="#portfolio"><?=trans('home.navigation.gallery')?></a>
 							</li>
 							<!-- <li class="nav-item">
-								<a class="nav-link" href="#post">Publicaciones</a>
+								<a class="nav-link" href="#post"><?=trans('home.navigation.post')?></a>
 							</li> -->
 							<li class="nav-item">
-								<a class="nav-link" href="#contact">Contacto</a>
+								<a class="nav-link" href="#contact"><?=trans('home.navigation.contact')?></a>
 							</li>
 						</ul>
-						<!-- <?php partial('langSelectorTemplate') ?> -->
-						<span class="lang-section">
-							<a href="#"><img src="static/img/es.png" title="Idioma Español" alt="Bandera Idioma Español"></a>
-						</span>
+						<?php partial('langSelectorTemplate') ?>
 					</div>
 				</nav>
 			</div>
@@ -87,8 +85,8 @@
 			<div class="container">
 				<div class="row justify-content-end align-items-center min-h-100vh text-left">
 					<div class="col-12 col-lg-7 p-100px-b p-50px-t">
-						<div class="color-theme font-30 text-uppercase font-w-700 m-20px-b">Estudio de Tatuajes en Cuba</div>
-						<div class="font-alt font-75 md-font-45 sm-font-35 color-white font-w-900 text-uppercase letter-spacing-3 m-30px-b">Luna Tattoo</div>
+						<div class="color-theme font-30 text-uppercase font-w-700 m-20px-b"><?=trans('home.home.intro')?></div>
+						<div class="font-alt font-75 md-font-45 sm-font-35 color-white font-w-900 text-uppercase letter-spacing-3 m-30px-b"><?=trans('home.home.title')?></div>
 						<span class="w-80px h-2px theme-bg display-table"></span>
 					</div>
 				</div>
@@ -99,12 +97,12 @@
 			<div class="container">
 				<div class="row justify-content-center align-items-center">
 					<div class="col-12 col-md-7 got-to">
-						<h2 class="color-white font-w-700 m-0px m-15px-b">Sobre <span class="color-theme">Nosotros</span></h2>
+						<h2 class="font-alt color-white m-0px m-15px-b"><?=trans('home.about.title')?></h2>
 						<span class="w-80px h-2px theme-bg display-table"></span>
-						<p class="font-16 m-25px-t m-30px-b">Caminando por la calle Empedrado, a escasos metros de la emblemática Bodeguita del Medio en el corazón de La Habana Vieja en Cuba, solo basta con que eches un vistazo dentro de una puerta y veas las escaleras pintada con colores brillantes que conduce a nuestro salón de tatuajes.</p>
-						<p class="font-16 m-25px-t m-30px-b">Con más de tres años de experiencia, en <strong>Luna Tattoo</strong>, estamos determinados a buscar y crear ese diseño que se desea, aún sin conocer cual es. No tenemos límite en cuanto a diseño, ya sean retratos, tribales, asiáticos, biomecánicos, a color o en gris y negro.</p>
-						<p class="font-16 m-25px-t m-30px-b">Tatuar es una pasión para nosotros. En cada tatuaje que realizamos, sin importar el diseño o el tamaño, ponemos todo nuestro empeño con el objetivo de que el cliente se sienta orgulloso de él.</p>
-						<a href="#contact" class="m-btn m-btn-t-white">Cómo llegar</a><a href="#team" class="m-btn m-btn-t-white">Quienés Somos</a>
+						<p class="font-16 m-25px-t m-30px-b"><?=trans('home.about.text1')?></p>
+						<p class="font-16 m-25px-t m-30px-b"><?=trans('home.about.text2')?></p>
+						<p class="font-16 m-25px-t m-30px-b"><?=trans('home.about.text3')?></p>
+						<a href="#contact" class="m-btn m-btn-t-white"><?=trans('home.about.btnmap')?></a><a href="#team" class="m-btn m-btn-t-white"><?=trans('home.about.btnteam')?></a>
 					</div>
 					<div class="col-12 col-md-5">
 						<img src="static/img/escalera-entrada.jpg" title="escaleras a LunaTattoo" alt="escaleras a LunaTattoo" />
@@ -117,8 +115,8 @@
 			<div class="container">
 				<div class="row justify-content-center m-55px-b  md-m-35px-b sm-m-25px-b">
 					<div class="col-12 col-md-10 col-lg-8 text-center">
-						<h2 class="color-extra-dark-gray font-w-700 m-0px m-15px-b">Servicios <span class="color-theme">que ofrecemos</span></h2>
-						<p class="font-17 m-0px m-20px-t sm-font-14 color-extra-dark-gray">Un tatuaje es una obra de arte permanente personalizada y hecha a mano.</p>
+						<h2 class="font-alt color-extra-dark-gray m-0px m-15px-b"><?=trans('home.services.title')?></h2>
+						<p class="font-17 m-0px m-20px-t sm-font-14 color-extra-dark-gray"><?=trans('home.services.intro')?></p>
 					</div>
 				</div>
 				<div class="row">
@@ -126,8 +124,8 @@
 						<div class="feature-box p-30px white-bg m-15px-tb box-shadow hover-shadow">
 							<i class="icon-catalog color-theme icon-xxl"></i>
 							<div class="feature-content">
-								<div class="font-alt font-16 font-w-600 letter-spacing-1 m-15px-b m-25px-t color-extra-dark-gray">Diseños únicos</div>
-								<p>Contamos con un extenso catálogo de diseños e igualmente si no encuentra lo que desea en este, diseñamos uno acorde a las caracter´siticas que quiere que este posea.</p>
+								<div class="font-alt font-16 font-w-600 letter-spacing-1 m-15px-b m-25px-t color-extra-dark-gray"><?=trans('home.services.design.title')?></div>
+								<p><?=trans('home.services.design.description')?></p>
 							</div>
 						</div>
 					</div>
@@ -135,8 +133,8 @@
 						<div class="feature-box p-30px white-bg m-15px-tb box-shadow hover-shadow">
 							<i class="icon-hand color-theme icon-xxl"></i>
 							<div class="feature-content">
-								<div class="font-alt font-16 font-w-600 letter-spacing-1 m-15px-b m-25px-t color-extra-dark-gray">Tapados</div>
-								<p>Aquellas marcas o viejos tatuajes que cree que afean su cuerpo no son un problema para nosotros. Nuestra experiencia nos permite realizar un trabajo sobre estas marcas o tatuajes que luego sentirá orgullo de llevar y mostrar</p>
+								<div class="font-alt font-16 font-w-600 letter-spacing-1 m-15px-b m-25px-t color-extra-dark-gray"><?=trans('home.services.covers.title')?></div>
+								<p><?=trans('home.services.covers.description')?></p>
 							</div>
 						</div>
 					</div>
@@ -144,8 +142,8 @@
 						<div class="feature-box p-30px white-bg m-15px-tb box-shadow hover-shadow">
 							<i class="icon-shoulder color-theme icon-xxl"></i>
 							<div class="feature-content">
-								<div class="font-alt font-16 font-w-600 letter-spacing-1 m-15px-b m-25px-t color-extra-dark-gray">Retoques</div>
-								<p>Si su tatuaje ha perdido los colores y ya no es el mismo que cuando se lo hizo, contamos con tintas de la mejor calidad que al ser retocado volverá a lucir como nunca antes.</p>
+								<div class="font-alt font-16 font-w-600 letter-spacing-1 m-15px-b m-25px-t color-extra-dark-gray"><?=trans('home.services.retouch.title')?></div>
+								<p><?=trans('home.services.retouch.description')?></p>
 							</div>
 						</div>
 					</div>
@@ -157,7 +155,7 @@
 			<div class="container">
 				<div class="row justify-content-center m-65px-b md-m-40px-b sm-m-30px-b">
 					<div class="col-12 col-md-10 col-lg-8 text-center">
-						<h2 class="color-white font-w-700 m-0px m-15px-b">Quienes <span class="color-theme">Somos</span></h2>
+						<h2 class="font-alt color-white m-0px m-15px-b"><?=trans('home.team.title')?></h2>
 					</div>
 				</div>
 				<div class="row justify-content-center">
@@ -172,13 +170,13 @@
 										<li><a class="instagram" href="https://www.instagram.com/lorenteluna/" target="_blank"><i class="icon-instagram"></i></a></li>
 									</ul>
 									<p class="m-0px color-white">
-										Sígueme en las redes sociales.
+										<?=trans('home.team.social')?>
 									</p>
 								</div>
 							</div>
 							<div class="p-15px text-center white-bg">
 								<div class="color-extra-dark-gray font-w-700 text-uppercase">Yunior Lorente Luna</div>
-								<span class="font-14">Diseñador / Tatuador</span>
+								<span class="font-14"><?=trans('home.team.job')?></span>
 							</div>
 						</div>
 					</div>
@@ -193,13 +191,13 @@
 										<li><a class="instagram" href="https://www.instagram.com/baileyramirezmadrigal/" target="_blank"><i class="icon-instagram"></i></a></li>
 									</ul>
 									<p class="m-0px color-white">
-										Sígueme en las redes sociales.
+										<?=trans('home.team.social')?>
 									</p>
 								</div>
 							</div>
 							<div class="p-15px text-center white-bg">
 								<div class="color-extra-dark-gray font-w-700 text-uppercase">Bailey Ramirez Madrigal</div>
-								<span class="font-14">Diseñador / Tatuador</span>
+								<span class="font-14"><?=trans('home.team.job')?></span>
 							</div>
 						</div>
 					</div>
@@ -212,7 +210,7 @@
 			<div class="container-fluid">
 				<div class="row justify-content-center m-60px-b sm-m-10px-b">
 					<div class="col-12 col-md-10 col-lg-8 text-center">
-						<h2 class="color-white font-38 font-w-800 m-0px m-20px-b">Galería</h2>
+						<h2 class="font-alt color-white m-0px m-20px-b"><?=trans('home.gallery.title')?></h2>
 						<span class="w-80px h-2px theme-bg display-table m-auto"></span>
 					</div>
 				</div>
@@ -232,24 +230,24 @@
 				<div class="row justify-content-center">
 					<div class="col-12 col-md-6 col-lg-4 md-m-30px-b">
 						<div class="m-50px-b">
-							<h5 class="font-w-600 color-white font-alt m-0px p-10px-b">Nuestros Datos</h5>
+							<h5 class="color-white font-alt m-0px p-10px-b"><?=trans('home.contact.title')?></h5>
 							<span class="display-block theme-bg w-50px h-2px"></span>
 						</div>
 						<div class="m-15px-b">
-							<div class="font-alt font-18 font-w-500 m-5px-b m-15px-t color-white">Dirección</div>
+							<div class="font-alt font-18 m-5px-b m-15px-t color-white"><?=trans('home.contact.adress')?></div>
 							<p class="font-16 m-0px">Empedrado #217 Apto. 8<br>e/ Cuba y San Ignacio<br>La Habana, Cuba</p>
 						</div>
 						<div class="m-15px-b">
-							<div class="font-alt font-18 font-w-500 m-5px-b m-15px-t color-white">Teléfonos</div>
+							<div class="font-alt font-18 m-5px-b m-15px-t color-white"><?=trans('home.contact.telf')?></div>
 							<p class="font-16 m-0px">+53 5 511 0363</p>
 							<p class="font-16 m-0px">+53 5 511 2704</p>
 						</div>
 						<div class="m-15px-b">
-							<div class="font-alt font-18 font-w-500 m-5px-b m-15px-t color-white">E-mail</div>
+							<div class="font-alt font-18 m-5px-b m-15px-t color-white">E-mail</div>
 							<p class="font-16 m-0px">studiomoontattoo@gmail.com</p>
 						</div>
 						<div class="m-15px-b">
-							<div class="font-alt font-18 font-w-500 m-5px-b m-15px-t color-white">Síguenos</div>
+							<div class="font-alt font-18 m-5px-b m-15px-t color-white"><?=trans('home.contact.social')?></div>
 							<ul class="social-icons social-icons-small m-40px-b sm-m-20px-b">
 								<li><a class="facebook" href="http://facebook.com/studiomoontattoo" target="_blank"><i class="icon-facebook"></i></a></li>
 								<li><a class="instagram" href="http://instagram.com/studiomoontattoo" target="_blank"><i class="icon-instagram"></i></a></li>
@@ -258,15 +256,15 @@
 					</div>
 					<div class="col-12 col-md-6 col-lg-8">
 						<div class="m-50px-b">
-							<h5 class="font-w-600 color-white font-alt m-0px p-10px-b">Mantente en Contacto</h5>
-							<span class="display-block theme-bg w-50px h-2px"></span>
+							<h5 class="color-white font-alt m-0px p-10px-b"><?=trans('home.contact.form.title')?></h5>
+							<p class="font-17 m-0px"><?=trans('home.contact.form.text')?></p>
 						</div>
 						<form method="POST" action="https://formspree.io/studiomoontattoo@gmail.com">
-							<input name="name" placeholder="Nombre *" class="border-form input-medium" type="text">
+							<input name="name" placeholder="<?=trans('home.contact.form.name')?>" class="border-form input-medium" type="text">
 							<input name="name" placeholder="E-mail *" class="border-form input-medium" type="email">
-							<textarea name="name" placeholder="Tu mensaje *" rows="6" class="border-form textarea-medium"></textarea>
+							<textarea name="name" placeholder="<?=trans('home.contact.form.msg')?>" rows="6" class="border-form textarea-medium"></textarea>
 							<input type="hidden" name="_next" value="http://tattoosincuba.com/thanks.html" />
-							<button type="submit" class="m-btn m-btn-t-white text-uppercase">Enviar <i class="icon-paper-plane"></i></button>
+							<button type="submit" class="m-btn m-btn-t-white text-uppercase"><?=trans('home.contact.form.btn')?> <i class="icon-paper-plane"></i></button>
 						</form>
 					</div>
 				</div>
