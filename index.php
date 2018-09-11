@@ -244,7 +244,7 @@
 						</div>
 						<div class="m-15px-b">
 							<div class="font-alt font-18 m-5px-b m-15px-t color-white">E-mail</div>
-							<p class="font-16 m-0px">studiomoontattoo@gmail.com</p>
+							<p class="font-16 m-0px"><a href="mailto:studiomoontattoo@gmail.com" class="color-gray">studiomoontattoo@gmail.com</a></p>
 						</div>
 						<div class="m-15px-b">
 							<div class="font-alt font-18 m-5px-b m-15px-t color-white"><?=trans('home.contact.social')?></div>
