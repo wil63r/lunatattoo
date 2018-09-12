@@ -227,12 +227,6 @@
 .header-black .navbar-toggler span {
   background: #fff;
 }
-.lang-section {
-  min-width: 30px;
-  text-align: right;
-  border-left: solid 1px;
-  display: block;
-}
 
 
 @media (max-width: 991px){
@@ -248,12 +242,6 @@
     left: 9px;
     right: 15px;
     bottom: 6px;
-  }
-  .lang-section {
-    min-width: initial;
-    text-align: initial;
-    border-left: none;
-    padding: 10px 0 10px 10px;
   }
 }
 

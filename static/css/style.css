@@ -28,7 +28,10 @@ Table of contents
 /*===================================
   01. Google font
 ====================================== */
-#loading {
+  @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+  @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+  #loading {
   position: fixed;
   top: 0;
   left: 0;
@@ -120,7 +123,7 @@ Table of contents
 /*===================================
   Font Family
 ====================================== */
-.font-alt {font-family: 'Merienda One', sans-serif;}
+.font-alt {font-family: 'Poppins', sans-serif;}
 .font-main { font-family: 'Roboto', sans-serif; }
 
 a,
@@ -3267,7 +3270,6 @@ background-position: center center;
 ====================================== */
 .color-white {color:#FFF}
 .color-black {color:#000}
-.color-gray {color:#6f6f6f}
 .color-extra-dark-gray {color:#232323}
 .color-dark-gray {color:#626262}
 .color-extra-medium-gray {color:#757575}
