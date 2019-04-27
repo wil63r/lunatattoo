@@ -2757,6 +2757,8 @@ background-position: center center;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+  white-space: normal;
+  text-align: left;
 }
 .faq-accordion button:hover {
   color: #baa256;
