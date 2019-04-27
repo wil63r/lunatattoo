@@ -6949,3 +6949,7 @@ background-position: center center;
   height: 370px;
   width: 100%;
 }
+@media (max-width: 575px){ 
+.intro-text {
+  background: rgba(0,0,0,.6);
+}
