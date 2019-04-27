@@ -2737,6 +2737,32 @@ background-position: center center;
 }
 
 /*===================================
+  Cards
+====================================== */
+.faq-accordion .card {
+  background: #1a1a1a;
+  border-radius: 0;
+  margin-bottom: 3px;
+  color: #fff;
+}
+.faq-accordion .card-header {
+    border-radius: 0;
+    padding: 0;
+}
+.faq-accordion .card-body {
+  background: #333;
+}
+.faq-accordion button {
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.faq-accordion button:hover {
+  color: #baa256;
+}
+
+/*===================================
   Tabs Design
 ====================================== */
 .tab-style-1 .nav {
